@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body id="fourthPage">
+    <header>
+        <nav class="nav-wrapper light-blue darken-3">
+            <div id="Container">
+                <!--<a href="#" class="brand-logo"> Cover Latter</a>-->
+
+                <a href="#" class='sidenav-trigger' data-target='mobile-menu'>
+                    <i class="material-icons" style="color:rgb(15, 37, 236)">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html" style="color:rgb(15, 37, 236)">Home</a></li>
+                    <li><a href="index2.html" style="color:rgb(15, 37, 236)">CV</a></li>
+                    <li><a href="index3.html" style="color:rgb(15, 37, 236)">CL</a></li>
+                </ul>
+
+                <ul class="sidenav red accent-1" id=mobile-menu>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">CV</a></li>
+                    <li><a href="index3.html">PB</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container ">
+            <div id="scope">
+                <h4 id="textLia" class=" timer animated bounceInDown ">Time Left To LIA</h4>
+                <div id="clock" class="timer"></div>
+                <div id="units" class="timer">
+                    <span>Days</span>
+                    <span>Hours</span>
+                    <span>Minutes</span>
+                    <span class="animated infinite fadeOut ">Seconds</span>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form  id="contact-form" method="post" action="">
+                    <input id="names" type="text" name="name" class="form-control" placeholder="Your Name" required> <br>
+                    <input id="emails" type="text" name="email" class="form-control" placeholder="Your Email" required>
+                    <br>
+                    <textarea id="messages" name="Message" class="form-control" placeholder="Message" required rows="5"></textarea>
+                    <br>
+                    <input onclick="sendInfo(event)" type="submit" class="form-control submit" value="Send Message"> <br>
+                </form>
+
+            </div>
+            <ul>
+                <li> <a href="https://www.facebook.com/Eashir"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li> <a href="https://plus.google.com/109512855671843323298"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li> <a href="https://github.com/login"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/md-eashir-arafat-3b166b162/"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <script src="script.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(function () {
+            $(".sidenav").sidenav();
+            $(".materialboxed").materialbox();
+            equalHeight();
+        })
+
+
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+
+
+
+</head>
+
+<body id="fourthPage">
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

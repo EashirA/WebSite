@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body >
+    <header>
+        <nav class="nav-wrapper light-blue darken-3">
+            <div id="Container">
+                <!--<a href="#" class="brand-logo"> Cover Latter</a>-->
+                
+                <a href="#" class='sidenav-trigger' data-target='mobile-menu'>
+                    <i class="material-icons" style="color:rgb(15, 37, 236)">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html" style="color:rgb(15, 37, 236)">Home</a></li>
+                    <li><a href="index3.html" style="color:rgb(15, 37, 236)">PB</a></li>
+                    <li><a href="index4.html" style="color:rgb(15, 37, 236)">Contact Me</a></li>
+                </ul>
+
+                <ul class="sidenav ight-blue accent-4" id=mobile-menu>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index3.html">PB</a></li>
+                    <li><a href="index4.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="paraDiv">
+            <h4>CV</h4>
+            <p style="margin-left:20px">
+            
+            
+            
+            </p>
+                <li><a href="downloads/CV.pdf">Download My CV</a></li>
+        </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(function () {
+            $(".sidenav").sidenav();
+            $(".materialboxed").materialbox();
+            equalHeight();
+        })
+    </script>
+</body>
+
+</html>

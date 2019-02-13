@@ -1,0 +1,256 @@
+
+body{
+    background-image: url("image/bg1.jpg");
+    opacity: 0.8;
+    max-width: 100%;
+    height: auto;
+
+}
+header{
+
+    background: transparent ;
+    background-size: cover;
+    background-position: center;
+    min-height: 1020px;
+
+  }
+  @media screen and (max-width: 670px){ 
+    header{
+      min-height: 1000px;
+    }
+  }
+
+
+#navBar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navBar h4{
+    color:rgb(111, 68, 209);
+    padding: 0 10px;
+}
+
+#paraDiv h4{
+    text-align: center;
+    color: #1227e6;  /*look*/
+}
+
+#paraDiv h5{
+    text-align: center;
+    color: #8c1fa1;
+}
+
+#paraDiv li a{
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #dd1616;
+}
+
+
+
+
+
+#fourthPage{
+    font-family: tahoma;
+    margin: 0;
+    padding:0;
+}
+
+#fourthPage .container ul{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#fourthPage .container ul li{
+    background: #000;
+    margin: 10px;
+    list-style: none;
+    font-size: 24px;
+    transition: .5s;
+}
+
+#fourthPage .container ul li a{
+    width: 40px;
+    padding: 8px 0;
+    display: block;
+    color: #fff;
+}
+
+#fourthPage .container ul li:nth-child(1){
+    background: #253b6b;
+    border-radius: 40px 10px;
+}
+
+#fourthPage  .container ul li:nth-child(2){
+    background: #dd4b39;
+    border-radius: 40px 10px;
+}
+
+#fourthPage .container ul li:nth-child(3){
+    background: #55acee;
+    border-radius: 40px 10px;
+}
+
+#fourthPage .container ul li:nth-child(4){
+    background: #000000;
+    border-radius: 40px 10px;
+}
+
+#fourthPage .container ul li:nth-child(5){
+    background: #007bb5;
+    border-radius: 40px 10px;
+}
+
+
+/* Time to LIA */
+#fourthPage h4{
+    text-align: center;
+    color: crimson;
+    font-size: 34px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    font-family: fantasy;
+    border-bottom: 1px solid red;
+    width:auto;
+  }
+
+.container #scope{
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  }
+  
+#clock span{
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 16px;
+    color: rgb(110, 9, 17);
+    padding: 10px;
+    width: 17%;
+    border-radius: 10px 40px;
+    box-sizing: border-box;
+  }
+  
+#clock span:nth-child(1){
+    background: #f6bc58;
+  }
+  
+#clock span:nth-child(2){
+    background: #528488;
+  }
+  
+#clock span:nth-child(3){
+    background: #fa5559;
+  }
+  
+#clock span:nth-child(4){
+    background: #2dcb74;
+  }
+  
+#clock:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+#units span{
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin-top: 20px;
+    color: rgb(22, 206, 22);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+
+#firstPage .images{
+    width:480px;
+    height: 650px;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.7s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+#Container ul li a{
+    font-family: fantasy;
+    font-size: 25px;
+    color: rgb(201, 15, 40);
+    font-weight: bold;
+}
+
+
+
+/* nicely done!*/
+form{
+ height: 300px;  
+width: 400px;
+text-align: center;
+position: absolute;
+top: 55%;
+left: 50%;
+transform: translate(-50%, -50%);
+ 
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid rgb(127, 151, 79);
+    color: rgb(13, 11, 139);
+    font-size: 18px;
+    margin-bottom: 16px;
+
+}
+
+input{
+    height: 45px;
+    
+}
+
+form .submit{
+    background: #1238df;
+    border-color:transparent;
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+form .submit:hover{
+    background-color: #c44817;
+    cursor: pointer;
+}
+  
+
+
+
+
